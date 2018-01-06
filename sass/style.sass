@@ -1,0 +1,1005 @@
+// DETALES
+html, body
+	margin: 0
+	padding: 0
+
+.button
+		background-color: #F3C84C
+		border: 2px solid #F3C84C
+		border-radius: 5px
+		margin-right: 10px
+		width: 120px
+		height: 42px
+		color: #fff
+		font-size: 14px
+		font-weight: 500
+		text-transform: uppercase
+		cursor: pointer
+		&:hover
+			background-color: #F3DA90
+			border: 2px solid #F3DA90
+			transition: all .5s ease
+
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700')
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700')
+
+/****************************************************************************************************/	
+// MEDIA
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.nav>li>a
+		padding: 10px 7px
+	.carousel-caption
+		top: 17%!important
+		left: 12%!important
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+		height: 350px!important
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.navbar-inverse .navbar-nav>li>a
+		padding-top: 15px!important
+		padding-bottom: 15px!important
+		&:hover
+			border-bottom: none!important
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+		height: 300px
+	.carousel-caption .h3, .carousel-caption h3
+		font-size: 34px!important
+	.carousel-caption p
+		width: 565px!important
+
+		
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	section.personal__marketer
+		.personal__marketer__card
+			right: 70px
+			top: 95px
+	/**/
+
+
+/****************************************************************************************************/
+
+// WRAPPER
+
+// HEADER
+	// TOP-LINE
+// .top__line
+// 	height: 100px
+// 	background-color: #252525
+// 	line-height: 100px
+
+	// LOGO
+	.logo
+	// NAV
+	// nav
+	// 	height: 100px
+	// 	background-color: #252525
+	// 	line-height: 100px
+
+	// .nav
+	// 	height: 100px
+	// 	background-color: #252525
+	// 	line-height: 100px
+	// 	li
+	// 		// display: inline-block
+
+.navbar-inverse .navbar-nav>li>a
+	color: #aaaaaa
+	padding-top: 27px
+	padding-bottom: 33px
+	font-weight: 700
+	// margin: 0 3px
+	text-decoration: none
+	position: relative
+	.fa
+		position: absolute
+		top: 28.9px
+		right: 4px
+	&:hover
+		color: #fff
+		padding-bottom: 8px
+		border-bottom: 3px solid #F3C84C
+		transition: all .2s
+.navbar-inverse .navbar-nav>.active>a
+	background-color: transparent
+	&:hover
+		background-color: transparent
+.navbar-nav>li>a
+	// line-height: 60px
+.navbar-toggle
+	margin-top: 25px
+	margin-bottom: 25px
+// SLIDER
+.slider
+	margin-top: 70px
+.carousel-indicators li
+	border-radius: 0
+	margin-right: 11px
+	width: 12px
+	height: 12px
+.carousel-indicators .active
+	background-color: transparent
+	border-color: #f4c93e
+	width: 12px
+	height: 12px
+	margin: 1px
+	margin-right: 11px
+
+
+.carousel-caption
+	position: absolute
+	right: 0
+	top: 25%
+	width: 850px
+	// bottom: 25%
+	left: 18.5%
+	z-index: 10
+	padding-top: 20px
+	padding-bottom: 20px
+	color: #fff
+	text-align: left
+	p
+		width: 650px
+		font-family: 'Open Sans', sans-serif
+		font-weight: 400
+	.h3, h3
+		font-size: 46px
+	h3
+		font-family: 'Lato Bold'
+		font-weight: bold
+
+// ABOUT-US
+.about_us
+	background-color: #F6F9FC
+	min-height: 428px
+	padding: 5px
+	padding-top: 70px
+	padding-bottom: 68px
+	img
+		float: left
+		margin-bottom: 62px
+	h3
+		font-family: 'Open Sans', sans-serif
+		font-weight: 600
+		font-size: 30px
+	h3, p
+		margin-left: 60px
+	p
+		font-family: 'Open Sans', sans-serif
+		font-weight: 400
+		font-size: 14px
+		color: #252525
+	.us__item
+		margin-top: 20px
+		// margin-bottom: 20px
+		margin-bottom: 33px
+
+// PORTFOLIO
+// SLICK1
+.slick-slider
+	left: 17px
+.slick__slide
+	width: 100%
+	margin: 0 10px
+.slick-next
+	right: -1px	
+.slick-next::before
+	content: url(../img/next-slick.png)
+
+.slick-prev
+	left: -47px
+.slick-prev::before
+	content: url(../img/prev-slick.png)
+.space
+	color: #fff
+	font-size: 1px
+	
+.portfolio
+	padding-top: 60px
+	padding-bottom: 86px
+	min-height: 500px
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		// margin-top: 66px
+		margin-bottom: 34px
+		color: #252525
+
+	.in__img
+		display: none
+		margin: 40px
+		top: 7%
+		position: absolute
+		color: #fff
+		h4
+			font-family: 'MyriadPro Bold'
+			font-weight: bold
+			font-size: 18px
+		p
+			font-family: 'Open Sans', sans-serif
+			font-weight: 400
+			font-size: 16px
+
+		.btn__item
+			background-color: transparent
+			border: 1px solid #fff
+			// border-radius: 5px
+			margin-right: 10px
+			width: 120px
+			height: 33px
+			color: #fff
+			font-family: 'Open Sans', sans-serif
+			font-size: 15px
+			font-weight: 400
+			cursor: pointer
+			&:hover
+				background-color: #fff
+				color: #f4c93e
+				transition: all .5s ease
+
+	.img__item
+		max-width: 568px
+		&:hover
+			.in__img
+				display: block
+				transition: all 1s
+			&::before
+				display: block
+
+		min-height: 300px
+		background-size: cover
+		position: relative
+		&::before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background-color: rgba(#DEBA4D, .92)
+			// opacity: 0
+			display: none
+
+
+		// h4
+		// 	font-size: 16px
+		// p
+		// 	font-size: 14px
+
+		// &:hover
+		// 	opacity: .1	
+		// 	transition: all .5s ease
+		// 	.in__img
+		// 		display: block
+
+
+// MAP
+
+// TO-TOP-BUTTON
+// #top
+// 	// bottom: 0
+// 	cursor: pointer
+// 	display: none
+// 	font-size: 150%
+// 	position: fixed
+// 	right: 40px
+// 	bottom: 40px
+
+.map
+	background-color: #F6F9FC
+	height: 115px
+	position: relative
+	.map__fix
+		// position: absolute
+		// top: 570px
+		// right: 95px
+		position: fixed
+		display: none
+		right: 40px
+		bottom: 100px
+		width: 220px
+		height: 220px
+		background-color: #E9C950
+		border-radius: 50%
+		z-index: 2000
+		
+		border: 15px solid rgba(#000, .1)
+
+		.fa
+			color: #fff
+			margin-top: 7px
+			margin-left: 85px
+			font-size: 34px
+
+		button
+			text-transform: uppercase
+			margin-top: 10px
+			margin-left: 40px
+			color: #fff
+			background-color: #DF9461
+			border: 1px solid #fff
+			width: 120px
+			height: 33px
+			color: #fff
+			font-family: 'SegoeUI Bold'
+			font-size: 17px
+			font-weight: 500
+			cursor: pointer
+			// text-align: center
+			&:hover
+				background-color: #F06A22
+				transition: all 1s
+
+		h4
+			margin-top: 65px
+			font-family: 'SegoeUI Regular'
+			font-size: 17px
+			text-align: center
+			color: #fff
+		span
+			font-family: 'SegoeUI Bold'
+		
+	h2
+		line-height: 86px
+		font-family: 'Lato Bold'
+		font-weight: bold
+		font-size: 35px
+	p
+		margin-top: 29px
+		padding-left: 3px
+		font-family: 'Open Sans', sans-serif
+		font-weight: 400
+		font-size: 16px
+
+	.in__map
+		height: 600px
+		background-image: url("../img/map.png")
+	.bottom__map
+		background-color: #F5F9FC
+	// .btn_map_first
+	// 	width: 135px
+	.btn_map
+		padding-right: 7px
+		padding-left: 7px
+		font-size: 14px
+		font-weight: 700
+		margin-top: 28px
+		margin-bottom: 28px
+		background-color: #F3C84C
+		border: 2px solid #F3C84C
+		margin-right: 4px
+		// width: 120px
+		height: 45px
+		color: #fff
+		font-family: 'MyriadPro Bold'
+		font-size: 18px
+		font-size: 14px
+		font-weight: 500
+		cursor: pointer
+		.fa
+			font-size: 18px
+
+		&:hover
+			background-color: #F3DA90
+			border: 2px solid #F3DA90
+			transition: all .5s ease
+
+	
+//WORK
+.work
+	margin-top: 770px
+	h2
+		text-align: center
+		font-size: 35px
+		font-family: 'Lato Bold'
+		font-weight: bold
+		margin-bottom: 58px
+	.in__work
+		margin-top: 20px
+		height: 470px
+		background-color: transparent
+		overflow: hidden
+		.rotate-slider
+			top: 71px
+			.animate-wrapper p
+				font-size: 16px
+				text-align: center
+			.animate-holder .title
+				font-size: 20px
+
+	.parallax-window
+		min-height: 404px
+		background: transparent
+
+	.in_the_end
+		h4
+			text-align: center
+			font-family: 'Lato Bold'
+			color: #fff
+			margin-top: 57px
+			font-size: 35px
+			font-weight: 700
+		img
+			text-align: center
+			// margin: 50px 105px 25px
+		p
+			font-family: 'MyriadPro Semibold'
+			font-size: 18px
+			text-align: center
+			margin-top: 25px
+			margin-left: -40px
+			width: 170px
+			color: #fff
+			// font-weight: 700
+			// margin: 50px 105px 25px
+		p:first-child
+			// margin-left: -10px
+		.in_the_end_block
+			margin: 50px 105px 25px
+
+// OTHER-SERVICES
+.other__services
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 70px
+		margin-bottom: 25px
+	p
+		width: 570px
+		font-family: 'Open Sans', sans-serif
+		font-size: 16px
+		margin-bottom: 10px
+
+	.service1, .service2
+		margin-bottom: 30px
+		.slick-prev
+			top: 27px
+		.slick-next
+			top: 27px
+	.in_other__services
+		height: 600px
+
+// MARKET
+.personal__marketer
+	position: relative
+	height: 475px
+	background-color: #F6F9FC
+	h2
+		margin-top: 65px
+		font-family: 'Lato Bold'
+		font-size: 35px
+	ul
+		// list-style-image: url("../img/list.png")
+		list-style-type: none
+	li
+		margin-top: 15px
+		font-size: 16px
+		font-family: 'Open Sans', sans-serif
+		width: 242px
+		position: relative
+		&::before
+			content: url("../img/list.png")
+			// margin-right: 8px
+			position: absolute
+			left: -23px
+			top: 3px
+	.personal__marketer__card
+		position: absolute
+		right: 226px
+		top: 90px
+
+// CONTACT-FORM
+.contact__form
+	height: 645px
+	background-color: #ECD05F
+	position: relative
+	h2
+		margin-top: 60px
+		font-family: 'Lato Bold'
+		font-size: 35px
+		text-align: center
+	form
+		margin-top: 80px
+		span
+			color: #000
+			font-family: 'MyriadPro Semibold'
+			font-size: 24px
+		input
+			margin-top: 10px
+			width: 400px
+			height: 40px
+			color: #66645E
+			background-color: #F0D98A
+			border: none
+			border-left: 5px solid #F0D98A
+			&.inp_btn
+				width: 140px
+				background-color: #E4BA17
+				color: #fff
+				font-family: 'MyriadPro Regular'
+				font-size: 18px
+				border-left: none
+				border: 2px solid #EED97C
+				&:hover
+					color: #E4BA17
+					background-color: #fff
+					transition: all .5s ease
+		textarea
+			margin-top: 10px
+			width: 400px
+			color: #66645E
+			background-color: #F0D98A
+			border: none
+			border-left: 5px solid #F0D98A
+			height: 135px		
+
+	.form_2
+		float: right
+		// transform: scale(-1, 1)
+		text-align: right
+		input
+			text-align: right
+			&.inp_btn
+				text-align: center
+		textarea
+			text-align: right
+	.faces
+		position: absolute
+		bottom: 0
+		left: 36%
+
+// NEWS
+.news
+	height: 750px
+	.fon_news
+		background-color: #F9F9FA
+		padding-bottom: 10px
+	h2
+		margin-top: 100px
+		margin-bottom: 40px
+		font-family: 'Lato Bold'
+		font-size: 35px
+	p
+		margin-top: 7px
+		margin-left: 8px
+		margin-right: 8px
+		font-size: 16px
+		font-family: 'Open Sans', sans-serif
+	a
+		margin-top: 30px
+		margin-left: 8px
+		font-family: 'Open Sans', sans-serif
+		font-size: 16px
+		text-decoration: none
+		color: #252525
+	.left__right
+		margin-top: 30px
+		float: right
+		text-align: center
+		padding-bottom: 15pxs
+		.fa
+			width: 36px
+			height: 36px
+			color: #fff
+			background-color: #E9C950
+			font-size: 36px
+
+
+// ADVANSMENT-TEXT
+.advancement__text
+	margin-bottom: 150px
+	h3
+		text-align: center
+		font-family: 'Open Sans', sans-serif
+		font-size: 30px
+		color: #252525
+		font-weight: 400
+	p
+		margin-top: 33px
+		font-family: 'Open Sans', sans-serif
+		font-size: 15px
+		font-weight: 400
+
+//FOOTER
+.footer
+	height: 280px
+	background-color: #201F20
+	.footer__left
+		margin-top: 47px
+		a
+			color: #aaaaaa
+			font-family: 'Lato Regular'
+			font-size: 16px
+			text-decoration: none
+			&:hover
+				color: #fff
+		p
+			margin-top: 20px
+			font-family: 'MyriadPro Regular'
+			font-size: 13px
+			color: #aaa
+	// ul
+	// 	margin-top: 47px
+	// 	list-style-type: none
+	// 	li
+	// 		a
+	// 			color: #aaaaaa
+	// 			text-decoration: none
+	// 			&:hover
+	// 				color: #fff
+	
+	.footer__right
+		text-align: right
+		p
+			margin-top: 47px
+			font-family: 'Lato Regular'
+			font-size: 16px
+			color: #aaaaaa
+		.footer__phone
+			margin-top: 30px
+			span
+				color: #aaaaaa
+				font-family: 'Lato Regular'
+				font-size: 16px
+
+	.footer_social
+		.fa
+			width: 15px
+			height: 15px
+			color: #A8ABB1
+			font-size: 17px
+			margin-left: 10px
+			margin-top: 30px
+
+
+/****************************************************************************************************/
+
+// PAGES
+
+// CONTACTS
+.contact__us
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 70px
+		margin-bottom: 25px
+	p
+		width: 570px
+		font-family: 'Open Sans', sans-serif
+		font-size: 16px
+		margin-bottom: 30px
+
+.effect__contacts
+	position: relative
+	.effect__contacts__window
+		position: absolute
+		top: 43px
+		left: 320px
+		height: 425px
+		width: 560px
+		background-color: #fff
+		font-family: 'Open Sans', sans-serif
+		font-weight: 400
+		font-size: 20px
+		// box-shadow: 0 1px 1px rgba(#000, .8)
+		.contact__us__address
+			position: relative
+			margin-top: 65px
+			margin-left: 105px
+			&::before
+				content: url("../img/contact_us/address_icon.png")
+				font-size: 16px
+				position: absolute
+				top: -2px
+				left: -45px
+		.contact__us__phones
+			position: relative
+			margin-top: 30px
+			margin-left: 105px
+			&::before
+				content: url("../img/contact_us/phone_icon.png")
+				font-size: 16px
+				position: absolute
+				top: -2px
+				left: -45px
+		.contact__us__mail
+			position: relative
+			margin-top: 30px
+			margin-left: 105px
+			&::before
+				content: url("../img/contact_us/mail_icon.png")
+				font-size: 16px
+				position: absolute
+				top: 4px
+				left: -45px
+		.contact__us__skype
+			position: relative
+			margin-top: 30px
+			margin-left: 105px
+			&::before
+				content: url("../img/contact_us/skype_icon.png")
+				font-size: 16px
+				position: absolute
+				top: -2px
+				left: -45px
+
+// PORTFOLIO-PAGE
+.portfolio__page__section
+	margin-bottom: 161px
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 70px
+		margin-bottom: 25px
+	.portfolio__img
+		min-height: 284px
+		background-size: cover
+		position: relative
+		margin-top: 20px
+		margin-bottom: 20px
+		&::before
+			position: absolute
+			content: ''
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			background-color: rgba(#DEBA4D, .92)
+			// opacity: 0
+			display: none
+		.in__img
+			display: none
+			margin: 40px
+			top: 7%
+			position: absolute
+			color: #fff
+			// LIGHTBOX
+			a
+				color: #fff
+				text-decoration: none
+			h4
+				font-family: 'MyriadPro Bold'
+				font-weight: bold
+				font-size: 18px
+			p
+				font-family: 'Open Sans', sans-serif
+				font-weight: 400
+				font-size: 16px
+	.portfolio__img:hover
+		.in__img
+			display: block
+			transition: all 1s
+		&::before
+			display: block
+
+// SHARES-PAGE NEWS-PAGE CITIES
+.shares
+	position: relative
+	margin-bottom: 160px
+	.share
+		height: 498px
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 70px
+		margin-bottom: 25px
+	p
+		width: 570px
+		font-family: 'Open Sans', sans-serif
+		font-size: 16px
+		margin-bottom: 30px
+	.share__post
+		box-shadow: 1px 1px 1px 1px rgba(#999, .5)
+		position: absolute
+		background-color: #fff
+		padding: 30px 30px
+		width: 960px
+		height: 282px
+		left: 201px
+		bottom: -190px
+		margin-bottom: 229px
+		h3
+			font-family: 'Lato Bold'
+			font-size: 22px
+		p
+			width: 902px
+		a
+			background-color: transparent
+			border: 1px solid #f3c84c
+			text-transform: none
+			margin-right: 10px
+			width: 120px
+			padding: 5px 15px
+			color: #252525
+			font-family: 'Open Sans', sans-serif
+			font-size: 15px
+			font-weight: 400
+			cursor: pointer
+			margin-bottom: 30px
+			text-decoration: none
+			transition: all .5s ease
+			&:hover
+				color: #fff
+				background-color: #f3c84c
+
+// CITIES-PAGE
+.cities
+	position: relative
+	margin-bottom: 20px
+	.share
+		height: 498px
+	h2
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 100px
+		margin-bottom: 40px
+	p
+		width: 570px
+		font-family: 'Open Sans', sans-serif
+		font-size: 16px
+		margin-bottom: 30px
+	.share__post
+		box-shadow: 1px 1px 1px 1px rgba(#999, .5)
+		position: absolute
+		background-color: #fff
+		padding: 30px 30px
+		width: 960px
+		height: 282px
+		left: 201px
+		bottom: -190px
+		margin-bottom: 229px
+		h3
+			font-family: 'Lato Bold'
+			font-size: 22px
+		p
+			width: 902px
+		a
+			background-color: transparent
+			border: 1px solid #f3c84c
+			text-transform: none
+			margin-right: 10px
+			width: 120px
+			padding: 5px 15px
+			color: #252525
+			font-family: 'Open Sans', sans-serif
+			font-size: 15px
+			font-weight: 400
+			cursor: pointer
+			margin-bottom: 30px
+			text-decoration: none
+			transition: all .5s ease
+			&:hover
+				color: #fff
+				background-color: #f3c84c
+
+// ADVERTISING-FEATURES
+.advertising__features,
+.advertising__features__ukraine
+	margin-bottom: 60px
+	h2
+		text-align: center
+		font-family: 'Lato Bold'
+		font-size: 35px
+		margin-top: 20px
+		margin-bottom: 40px
+	p
+		font-family: 'Open Sans', sans-serif
+		font-size: 15px
+		font-weight: 400
+		margin-bottom: 30px
+		line-height: 1.5em
+		
+.advertising__features__ukraine
+	h2
+		margin-top: 60px
+
+// CONSTRUCTIONS-PAGE
+.advertising__constructions
+	margin-bottom: 30px
+	h2
+		margin-top: 63px
+		margin-bottom: 68px
+		font-family: 'Lato Bold'
+		font-size: 35px
+	.board
+		margin-bottom: 60px
+		h4
+			margin-top: 30px
+			font-family: 'Open Sans', sans-serif
+			font-size: 24px
+			padding-left: 46px
+
+// CONSTRUCTIONS-CONTACT-FORM
+.advertising__constructions__form
+	position: relative
+	background-color: #f3c84c
+	.constructions__form
+		margin-left: 100px
+		h2
+			margin-top: 60px
+			margin-bottom: 27px
+			font-family: 'Lato Bold'
+			font-size: 32px
+		input
+			width: 700px
+			margin-top: 10px
+			height: 45px
+			color: #66645E
+			background-color: #F0D98A
+			border: none
+			border-left: 5px solid #F0D98A
+			&.inp_btn
+				margin-left: 220px
+				width: 214px
+				background-color: #E4BA17
+				color: #fff
+				font-family: 'MyriadPro Regular'
+				font-size: 18px
+				border-left: none
+				border: 2px solid #EED97C
+				margin-bottom: 39px
+				&:hover
+					color: #E4BA17
+					background-color: #fff
+					transition: all .5s ease
+		.input__short
+			width: 346px
+			margin-right: 5px
+		textarea
+			width: 700px
+			margin-top: 10px
+			color: #66645E
+			background-color: #F0D98A
+			border: none
+			border-left: 5px solid #F0D98A
+			height: 95px		
+	.constructions__form__face
+		position: absolute
+		bottom: 0
+		left: 785px
+	
+			
