@@ -1,0 +1,52 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "8AXPVS6C36.com.linkedin.Coworkers",
+        "paths": [
+          "/popup/*"
+        ]
+      },
+      {
+        "appID": "277WVWYGVH.com.linkedin.LinkedIn.enterprise",
+        "paths": [
+          "/"
+        ]
+      },
+      {
+        "appIDs": [
+          "8AXPVS6C36.com.linkedin.Learning"
+        ],
+        "components": [
+          {
+            "/": "/registration"
+          },
+          {
+            "/": "/registration/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "8AXPVS6C36.com.linkedin.LinkedIn",
+      "277WVWYGVH.com.linkedin.LinkedIn",
+      "277WVWYGVH.com.linkedin.LinkedIn.enterprise",
+      "8AXPVS6C36.com.linkedin.Learning",
+      "8AXPVS6C36.com.linkedin.Lighthouse",
+      "277WVWYGVH.com.linkedin.LighthouseEnterprise",
+      "8AXPVS6C36.com.linkedin.recruiter",
+      "64ZXQ8664V.com.linkedin.recruiter.enterprise",
+      "8AXPVS6C36.com.linkedin.Zephyr",
+      "277WVWYGVH.com.linkedin.Zephyr.enterprise"
+    ]
+  },
+  "activitycontinuation": {
+    "apps": [
+      "277WVWYGVH.com.linkedin.LinkedIn",
+      "277WVWYGVH.com.linkedin.LinkedIn.enterprise"
+    ]
+  }
+}
